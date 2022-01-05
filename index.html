@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>JavaScript ToDo List</title>
+  </head>
+  <body>
+    <h1 align="center">ToDo List</h1>
+    <div class="container">
+      <ul id="box"></ul>
+      <input
+        type="text"
+        id="name"
+        class="input"
+        placeholder="Enter The Item Name..."
+      />
+      <input
+        type="button"
+        value="Add"
+        id="btnClick"
+        class="btn"
+        onclick="add()"
+      />
+      <span id="error"></span>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
